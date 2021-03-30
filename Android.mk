@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),gt5note10wifi)
+ifeq ($(TARGET_DEVICE),gt510lte)
 
 endif
