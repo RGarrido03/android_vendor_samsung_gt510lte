@@ -23,13 +23,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Headset_cal.acdb \
     vendor/samsung/gt510lte/proprietary/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Speaker_cal.acdb \
     vendor/samsung/gt510lte/proprietary/lib/hw/audio.primary.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.msm8916.so \
-    vendor/samsung/gt510lte/proprietary/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/gt510lte/proprietary/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.vendor.msm8916.so \
-    vendor/samsung/gt510lte/proprietary/lib/lib-sec-disp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-sec-disp.so \
+    vendor/samsung/gt510lte/proprietary/lib/hw/camera.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/gt510lte/proprietary/lib/hw/sensors.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.vendor.msm8916.so \
+    vendor/samsung/gt510lte/proprietary/lib/hw/camera.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.msm8916.so \
+    vendor/samsung/gt510lte/proprietary/lib/hw/sensors.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.msm8916.so \
+    vendor/samsung/gt510lte/proprietary/vendor/lib/lib-sec-disp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-sec-disp.so \
+    vendor/samsung/gt510lte/proprietary/vendor/lib/lib-sec-disp.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib/lib-sec-disp.so \
     vendor/samsung/gt510lte/proprietary/lib/libAl_Awb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb.so \
     vendor/samsung/gt510lte/proprietary/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb_Sp.so \
     vendor/samsung/gt510lte/proprietary/lib/libril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libril.so \
-    vendor/samsung/gt510lte/proprietary/lib/libSamsungPkcs11Wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPkcs11Wrapper.so \
+    vendor/samsung/gt510lte/proprietary/vendor/lib/libSamsungPkcs11Wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPkcs11Wrapper.so \
+    vendor/samsung/gt510lte/proprietary/vendor/lib/libSamsungPkcs11Wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib/libSamsungPkcs11Wrapper.so \
     vendor/samsung/gt510lte/proprietary/lib/libSamsungPostProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcess.so \
     vendor/samsung/gt510lte/proprietary/lib/libSamsungPreProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPreProcess.so \
     vendor/samsung/gt510lte/proprietary/lib/libSoundAlive_VSP_ver315b_arm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSoundAlive_VSP_ver315b_arm.so \
