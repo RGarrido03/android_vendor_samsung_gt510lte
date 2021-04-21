@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/samsung/gt510lte/proprietary/lib/libawb_algo_front.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libawb_algo_front.so \
     vendor/samsung/gt510lte/proprietary/lib/libawb_algo_rear_al.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libawb_algo_rear_al.so \
-    vendor/samsung/gt510lte/proprietary/lib/libcamera_metadata.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_metadata.so \
     vendor/samsung/gt510lte/proprietary/lib/libcodecsolution.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcodecsolution.so \
     vendor/samsung/gt510lte/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
     vendor/samsung/gt510lte/proprietary/lib/libjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjpeg.so \
