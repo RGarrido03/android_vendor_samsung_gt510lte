@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/gt510lte
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/gt510lte/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/gt510lte/proprietary/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Bluetooth_cal.acdb \
     vendor/samsung/gt510lte/proprietary/etc/General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/General_cal.acdb \
     vendor/samsung/gt510lte/proprietary/etc/Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Global_cal.acdb \
@@ -18,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/vendor/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libAl_Awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb_Sp.so \
+    vendor/samsung/gt510lte/proprietary/vendor/lib/libAstcEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAstcEnc.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libSamsungPostProcess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcess.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libSamsungPreProcess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPreProcess.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libSoundAlive_VSP_ver315b_arm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSoundAlive_VSP_ver315b_arm.so \
@@ -47,8 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libmmcamera_cac2_lib_13M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac2_lib_13M.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wavelet_lib.so \
-    vendor/samsung/gt510lte/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
-    vendor/samsung/gt510lte/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
+    vendor/samsung/gt510lte/proprietary/vendor/lib/libquramimagecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquramimagecodec.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilutils.so \
@@ -65,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiosaplus_sec.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/lib-sec-disp.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-sec-disp.so \
+    vendor/samsung/gt510lte/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libQjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQjpeg.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libSamsungPkcs11Wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPkcs11Wrapper.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libactuator_dw9804_rossa_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_rossa_camcorder.so \
@@ -106,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libmmipl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipl.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
+    vendor/samsung/gt510lte/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/liboemcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcamera.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
