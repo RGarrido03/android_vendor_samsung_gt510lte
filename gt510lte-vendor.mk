@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
     vendor/samsung/gt510lte/proprietary/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudioinfo.so \
     vendor/samsung/gt510lte/proprietary/lib/libseccameracore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libseccameracore.so \
-    vendor/samsung/gt510lte/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \
     vendor/samsung/gt510lte/proprietary/lib/libtinycompress.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinycompress.so \
     vendor/samsung/gt510lte/proprietary/lib/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libaudiosaplus_sec.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
@@ -126,4 +125,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/samsung/gt510lte/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so
 
- # vendor/samsung/gt510lte/proprietary/vendor/lib/libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_metadata.so \
+ # vendor/samsung/gt510lte/proprietary/vendor/lib/libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_metadata.so \ # Bootloops
+ # vendor/samsung/gt510lte/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \ # Is missing mixer_subscribe_events
