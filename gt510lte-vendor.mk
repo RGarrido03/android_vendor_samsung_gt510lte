@@ -53,8 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/gt510lte/proprietary/lib/libquramimagecodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libquramimagecodec.so \
     vendor/samsung/gt510lte/proprietary/lib/libreference-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libreference-ril.so \
-    vendor/samsung/gt510lte/proprietary/lib/libril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libril.so \
-    vendor/samsung/gt510lte/proprietary/lib/librilutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librilutils.so \
     vendor/samsung/gt510lte/proprietary/lib/librmnetctl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librmnetctl.so \
     vendor/samsung/gt510lte/proprietary/lib/libsamsungRecord.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord.so \
     vendor/samsung/gt510lte/proprietary/lib/libsamsungSoundbooster_ext.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungSoundbooster_ext.so \
