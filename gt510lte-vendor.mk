@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
+    vendor/samsung/gt510lte/proprietary/bin/rild:$(TARGET_COPY_OUT_SYSTEM)/bin/rild \
     vendor/samsung/gt510lte/proprietary/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Bluetooth_cal.acdb \
     vendor/samsung/gt510lte/proprietary/etc/General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/General_cal.acdb \
     vendor/samsung/gt510lte/proprietary/etc/Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Global_cal.acdb \
@@ -52,7 +53,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/lib/libmmcamera_cac2_lib_13M.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_cac2_lib_13M.so \
     vendor/samsung/gt510lte/proprietary/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/gt510lte/proprietary/lib/libquramimagecodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libquramimagecodec.so \
+    vendor/samsung/gt510lte/proprietary/lib/libradio.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libradio.so \
+    vendor/samsung/gt510lte/proprietary/lib/libradioservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libradioservice.so \
     vendor/samsung/gt510lte/proprietary/lib/libreference-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libreference-ril.so \
+    vendor/samsung/gt510lte/proprietary/lib/libril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libril.so \
+    vendor/samsung/gt510lte/proprietary/lib/librilutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librilutils.so \
     vendor/samsung/gt510lte/proprietary/lib/librmnetctl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librmnetctl.so \
     vendor/samsung/gt510lte/proprietary/lib/libsamsungRecord.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord.so \
     vendor/samsung/gt510lte/proprietary/lib/libsamsungSoundbooster_ext.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungSoundbooster_ext.so \
