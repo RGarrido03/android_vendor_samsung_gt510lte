@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/lib/libradioservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libradioservice.so \
     vendor/samsung/gt510lte/proprietary/lib/libreference-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libreference-ril.so \
     vendor/samsung/gt510lte/proprietary/lib/libril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libril.so \
+    vendor/samsung/gt510lte/proprietary/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
     vendor/samsung/gt510lte/proprietary/lib/librilutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librilutils.so \
     vendor/samsung/gt510lte/proprietary/lib/librmnetctl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librmnetctl.so \
     vendor/samsung/gt510lte/proprietary/lib/libsamsungRecord.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord.so \
