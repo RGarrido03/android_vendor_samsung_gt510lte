@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510lte/proprietary/lib/libsamsungeffect.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungeffect.so \
     vendor/samsung/gt510lte/proprietary/lib/libsamsungpowersound.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungpowersound.so \
     vendor/samsung/gt510lte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
+    vendor/samsung/gt510lte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/gt510lte/proprietary/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudioinfo.so \
     vendor/samsung/gt510lte/proprietary/lib/libseccameracore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libseccameracore.so \
     vendor/samsung/gt510lte/proprietary/lib/libtinycompress.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinycompress.so \
